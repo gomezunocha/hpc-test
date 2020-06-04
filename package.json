@@ -1,0 +1,15 @@
+{
+  "name": "hpc-test",
+  "version": "0.0.1",
+  "description": "hpc e2e tests",
+  "scripts": {
+    "hid:install": "cd hid_mock && npm ci",
+    "hid:start": "cd hid_mock && npm run dev",
+    "test:fts": "cypress open --project hpc_apps/fts",
+    "test:rpm": "cypress open --project hpc_apps/rpm",
+    "test:projects": "cypress open --project hpc_apps/projects"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

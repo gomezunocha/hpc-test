@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://fts.hpc.vm",
+    "chromeWebSecurity": false,
+    "video": false
+}

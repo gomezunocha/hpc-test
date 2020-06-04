@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://rpm.hpc.vm",
+    "chromeWebSecurity": false,
+    "video": false
+}
